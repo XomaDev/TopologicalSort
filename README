@@ -2,7 +2,8 @@
 
 Idk why people often complecate the procedure, just do it da simple way, isnt it?
 
-```java
+```` java
+
 List<Node> list = new GraphWay()
               .needs(5, 4, 2, 3, 0, 1)
               .add(5, 2)
@@ -18,7 +19,8 @@ List<Node> list = new GraphWay()
       System.out.println(Arrays.toString(sorted));
       
       // prints [5, 4, 2, 3, 1, 0]
-```
+      
+````
 
 There can be more than one valid outputs for the same trees.
 Also I've refered many sources to test the Algorithm i wrote
